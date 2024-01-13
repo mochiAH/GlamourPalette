@@ -1,0 +1,68 @@
+    
+        body {
+            font-family:  "Garamond", Raleway, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a39193;
+        }
+
+        header {
+            background-color: #ece6e3;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+
+        h1 {
+            margin: 0;
+            flex-grow: 1; /* Allow h1 to grow and take the available space */
+            text-align: center; /* Center the text within the flex container */
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .clothing-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .clothing-item {
+            flex: 1 1 30%;
+            margin: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+		
+        .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: #a39193;
+           font-family: 'Garamond', serif; 
+           font-size: 16px;
+           color: white;
+           text-align: center;
+           padding: 5px;
+        }
+

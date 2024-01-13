@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trendy >> COLLECTIONS</title>
+  <link rel="stylesheet" href="trendyCOLLECTIONSspring.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+body {
+  margin: 0;
+  background-color: #ece6e3;
+}
+</style>
+<body>
+
+<div class="container">
+
+<!-- Menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div id="menu">
+    <ul>
+      <h1 class="menu-heading"><strong>TRENDY</strong></h1>
+      <li><a href="trendyTRENDING.html">TRENDING</a></li>
+      <li><a href="trendyNEW.html">NEW</a></li>
+      <li class="dropdown">
+        <a href="trendySUMMER.html"class="active" class="dropdown-btn">COLLECTIONS <i class="fa fa-caret-down"></i></a>
+       <div class="dropdown-container">
+          <a href="trendySUMMER.html">Summer</a>
+          <a href="trendyWINTER.html">Winter</a>
+          <a href="trendyCOLLECTIONSspring.html">Spring</a>
+          <a href="trendyFALL.html" class="active">Fall</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="content">
+
+<div class="w3-container w3-text-grey" id="jeans">
+<h3 style="text-align: center; font-family: 'Garamond', serif;">FALL</h3>
+</div>
+
+<!-- Contents -->
+<div class="row-padding margin" style="padding-bottom: 50px">
+  <div class="img-text">
+    <div class="image-box">
+        <img src="menfall.jpg" alt="Men in Fall" style="width: 100%; height: 100%">
+        <div class="overlay">
+            <div class="text">Men</div>
+        </div>
+    </div>
+    <div class="external-text">
+        <h6 style="text-align: center; font-family: 'Garamond', serif;">Men's Collection</h6>
+    </div>
+  </div>
+  
+  <div class="img-text">
+    <div class="image-box">
+        <img src="womanfall.jpg" alt="Women in Fall" style="width: 100%; height: 100%">
+        <div class="overlay">
+            <div class="text">Women</div>
+        </div>
+    </div>
+    <div class="external-text">
+        <h6 style="text-align: center; font-family: 'Garamond', serif;">Women's Collection</h6>
+    </div>
+  </div>
+  
+  <div class="img-text">
+    <div class="image-box">
+        <img src="kidfall.jpg" alt="Kids in Fall" style="width: 100%; height: 100%">
+        <div class="overlay">
+            <div class="text">Kids</div>
+        </div>
+    </div>
+    <div class="external-text">
+        <h6 style="text-align: center; font-family: 'Garamond', serif;">Kids' Collection</h6>
+    </div>
+  </div>
+  
+  <div class="img-text">
+    <div class="image-box">
+        <img src="adultfall.jpg" alt="Adult in Fall" style="width: 100%; height: 100%">
+        <div class="overlay">
+            <div class="text">Adult</div>
+        </div>
+    </div>
+    <div class="external-text">
+        <h6 style="text-align: center; font-family: 'Garamond', serif;">Adult Collection</h6>
+    </div>
+  </div>
+
+</div>
+
+  <!-- Page Footer -->
+  <div class="footer">
+    2023 Copyright &copy; GlamourPalette All Rights Reserved.
+  </div>
+  
+ </div>
+
+</div>
+  
+<script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+</script>
+
+
+</body>
+</html>

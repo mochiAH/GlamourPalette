@@ -1,0 +1,99 @@
+ss/* styles.css */
+
+/* Code 1 styles */
+.header {
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: black;
+}
+
+.content {
+    height: 700px;
+    width: 100%;
+}
+
+.content div {
+    float: left;
+    width: 30%;
+    padding: 0px 15px;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 17px;
+}
+
+body {
+    background-color: #cebfb6;
+}
+
+/* Code 2 styles */
+.body {
+    padding-top: 35px;
+}
+
+.c1 {
+    width: 70%;
+    margin: 30px 30px;
+    border: 10px;
+}
+
+.g1 {
+    width: 40%;
+    float: left;
+}
+
+.text {
+    width: 40%;
+    float: left;
+    padding-top: 45px;
+}
+
+.image {
+    float: left;
+    padding-left: 300px;
+    margin-right: 20px;
+    max-width: 500px;
+    height: 200px;
+    width: 200px;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 200px;
+}
+
+.section-2 .image {
+    float: right;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-right: 150px;
+    margin: 20px auto;
+     max-width: 2000px;
+}
+.section-2 .content{
+    padding-left: 300px;
+     max-width: 2000px;
+     margin: 20px auto;
+}
+
+/* Page Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #a39193;
+  font-family: 'Garamond', serif; 
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
